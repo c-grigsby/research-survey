@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// @packages
+import React from 'react';
+import { Card, CardBody, Container } from 'reactstrap';
+// @scripts
 import './App.css';
+import Survey from './Components/Survey/Survery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Container>
+        <Card className='form'>
+          <CardBody>
+            <Survey />
+          </CardBody>
+        </Card>
+      </Container>
     </div>
   );
 }
