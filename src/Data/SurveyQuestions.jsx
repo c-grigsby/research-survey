@@ -109,7 +109,7 @@ const SurveyQuestions = {
      }
     ],
     // "title": "Survey",
-    "description": "Your response will be anonymous"
+    "description": "Responses are anonymous"
    }
   ]
  }
