@@ -9,37 +9,37 @@ const SurveyQuestions = {
     "elements": [
      {
       "type": "boolean",
-      "name": "question7",
+      "name": "question1",
       "title": "I am a student at the Gupta College of Science at Coastal Carolina University",
       "isRequired": true
      },
      {
       "type": "boolean",
-      "name": "question1",
+      "name": "question2",
       "title": "I have a firm understanding of the additional fees associated with my tuition ",
       "isRequired": true
      },
      {
       "type": "boolean",
-      "name": "question2",
+      "name": "question3",
       "title": "I utilize all of the services for which I am changed additional fees by Student Accounts",
       "isRequired": true
      },
      {
       "type": "boolean",
-      "name": "question5",
+      "name": "question4",
       "title": "I would like the option to opt-out of some of the services for which I am charged additional fees",
       "isRequired": true
      },
      {
       "type": "boolean",
-      "name": "question3",
+      "name": "question5",
       "title": "I frequently spend money out of pocket to purchase technology for my education",
       "isRequired": true
      },
      {
       "type": "radiogroup",
-      "name": "question4",
+      "name": "question6",
       "title": "My personal computer was purchased out of pocket at a cost of ",
       "isRequired": true,
       "choices": [
@@ -67,7 +67,7 @@ const SurveyQuestions = {
      },
      {
       "type": "text",
-      "name": "question6",
+      "name": "question7",
       "title": "Please provide an estimate for the total amount you have paid out-of-pocket for technology while enrolled as an undergraduate student (computers, monitors, devices, printers, calculators, devices, storage drives, cords, etc.)",
       "isRequired": true,
       "validators": [
@@ -81,8 +81,8 @@ const SurveyQuestions = {
      },
      {
       "type": "text",
-      "name": "question9",
-      "title": "Please estimate the average amount you spend per semester for out-of-pocket for technology related expenses? ",
+      "name": "question8",
+      "title": "Please estimate the average amount you spend out of pocket per semester for technology related expenses? ",
       "isRequired": true,
       "validators": [
        {
@@ -95,7 +95,7 @@ const SurveyQuestions = {
      },
      {
       "type": "text",
-      "name": "question8",
+      "name": "question9",
       "title": "Please enter the survey number you were provided",
       "isRequired": true,
       "validators": [
