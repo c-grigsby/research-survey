@@ -4,15 +4,101 @@
 
 .App {
   min-height: 100vh;
-  padding: 4rem 4rem; 
+  padding: 4rem;
+  background-image: linear-gradient(to right, #02aab0, #00cdac);
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.form {
-  padding: .75rem;
+.Card {
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  overflow-x: hidden;
+  min-height: 350px;
+}
+
+@media only screen and (max-width: 620px) {
+  .App {
+    padding: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .App {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  .App {
+    padding: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .App {
+    padding: 0.55rem;
+  }
+  .sd-element {
+    max-width: 97%;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .App {
+    padding: 0.45rem;
+  }
+  .sd-element {
+    max-width: 94%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .App {
+    padding: 0.38rem;
+  }
+  .sd-element {
+    max-width: 88%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .App {
+    padding: 0.34rem;
+  }
+  .sd-element {
+    max-width: 84%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .App {
+    padding: 0.24rem;
+  }
+  .sd-element {
+    max-width: 79%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .App {
+    padding: 0.21rem;
+  }
+  .sd-element {
+    max-width: 73%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .App {
+    padding: 4px;
+  }
+  .sd-element {
+    max-width: 65%;
+  }
+}
+@media only screen and (max-width: 308px) {
+  .App {
+    padding: 4px;
+  }
+  .sd-element {
+    max-width: 60%;
+  }
 }

@@ -3,15 +3,17 @@ import React from 'react';
 import { Card, CardBody, Container } from 'reactstrap';
 // @scripts
 import './App.css';
-import Survey from './Components/Survey/Survery';
+import SurveyForm from './Components/Survey/SurveryForm';
 
 function App() {
   return (
     <div className='App'>
       <Container>
-        <Card className='form'>
+        <Card className='Card'>
           <CardBody>
-            <Survey />
+            <div>
+              <SurveyForm />
+            </div>
           </CardBody>
         </Card>
       </Container>
