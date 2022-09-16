@@ -77,7 +77,7 @@ const SurveyQuestions = {
         "maxValue": 25000
        }
       ],
-      "placeholder": "Input a number"
+      "placeholder": "Input Number"
      },
      {
       "type": "text",
@@ -91,7 +91,7 @@ const SurveyQuestions = {
         "maxValue": 7000
        }
       ],
-      "placeholder": "Input a number"
+      "placeholder": "Input Number"
      },
      {
       "type": "text",
@@ -105,7 +105,7 @@ const SurveyQuestions = {
          "maxValue": 99999
         },
        ],
-       "placeholder": "Input a number"
+       "placeholder": "Input Number"
      }
     ],
     // "title": "Survey",
