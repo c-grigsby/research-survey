@@ -13,7 +13,6 @@ const SurveyForm = (props) => {
   const survey = new Model(SurveyQuestions);
 
   const surveyComplete = useCallback((sender) => {
-    console.log(sender.data);
     axios
       .post('https://research-survey.herokuapp.com/api/v1/survey', {
         question1: sender.data.question1,
