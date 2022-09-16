@@ -11,6 +11,7 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.4",
     "survey-react": "^1.9.48",
+    "survey-react-ui": "^1.9.49",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
