@@ -8,11 +8,11 @@ import SurveyForm from './Components/Survey/SurveryForm';
 function App() {
   return (
     <div className='App'>
-      <Container className='Container'>
+      <Container>
         <Card className='Card'>
-          <CardBody className='CardBody'>
+          <CardBody>
             <div>
-              <SurveyForm className='Survey' />
+              <SurveyForm />
             </div>
           </CardBody>
         </Card>
