@@ -11,9 +11,7 @@ function App() {
       <Container>
         <Card className='Card'>
           <CardBody>
-            <div>
-              <SurveyForm />
-            </div>
+            <SurveyForm />
           </CardBody>
         </Card>
       </Container>
