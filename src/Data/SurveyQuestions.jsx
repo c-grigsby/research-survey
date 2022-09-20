@@ -68,7 +68,7 @@ const SurveyQuestions = {
      {
       "type": "text",
       "name": "question7",
-      "title": "Please provide an estimate for the total amount you have paid out-of-pocket for technology while enrolled as an undergraduate student (computers, monitors, devices, printers, calculators, devices, storage drives, cords, etc.)",
+      "title": "Please provide an estimate of the total amount you have paid out of pocket for technology during your undergraduate studies (computers, monitors, devices, printers, calculators, external storage, cloud services, cords, etc.)",
       "isRequired": true,
       "validators": [
        {
@@ -82,7 +82,7 @@ const SurveyQuestions = {
      {
       "type": "text",
       "name": "question8",
-      "title": "Please estimate the average amount you spend out of pocket per semester for technology related expenses? ",
+      "title": "Please estimate the average amount you spend out of pocket on technology-related expenses each semester",
       "isRequired": true,
       "validators": [
        {
@@ -96,14 +96,15 @@ const SurveyQuestions = {
      {
       "type": "text",
       "name": "question9",
-      "title": "Please enter the survey number you were provided",
+      "title": "Please enter the survey number you received",
       "isRequired": true,
       "validators": [
-        {
-         "type": "numeric",
-         "minValue": 0,
-         "maxValue": 99999
-        },
+       {
+        "type": "numeric",
+        "text": "Invalid survey number.",
+        "minValue": process.env.REACT_APP_SURVEY_NUMBER,
+        "maxValue": process.env.REACT_APP_SURVEY_NUMBER
+        }
        ],
        "placeholder": "Input Number"
      }
