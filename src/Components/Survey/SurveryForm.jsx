@@ -23,7 +23,7 @@ const SurveyForm = (props) => {
         question6: sender.data.question6,
         question7: sender.data.question7,
         question8: sender.data.question8,
-        question9: sender.data.question9,
+        question9: 2880
       })
       .then((res) => {
         console.log(res);
@@ -34,7 +34,6 @@ const SurveyForm = (props) => {
   }, []);
 
   survey.onComplete.add(surveyComplete);
-
   return <Survey model={survey} />;
 };
 
