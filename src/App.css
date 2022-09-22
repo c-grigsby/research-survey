@@ -5,12 +5,12 @@
 .App {
   min-height: 100vh;
   padding: 4rem;
-  background-image: linear-gradient(to right, #02aab0, #00cdac);
+  background-image: linear-gradient(to left, #02aab0, #00cdac);
 }
 
 .Card {
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 .sd-question__required-text {
