@@ -49,7 +49,7 @@ const SurveyQuestions = {
        },
        {
         "value": "item2",
-        "text": "less than $500"
+        "text": "Less than $500"
        },
        {
         "value": "item3",
