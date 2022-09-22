@@ -92,21 +92,6 @@ const SurveyQuestions = {
        }
       ],
       "placeholder": "Input Number"
-     },
-     {
-      "type": "text",
-      "name": "question9",
-      "title": "Please enter the survey number you received",
-      "isRequired": true,
-      "validators": [
-       {
-        "type": "numeric",
-        "text": "Invalid survey number.",
-        "minValue": process.env.REACT_APP_SURVEY_NUMBER,
-        "maxValue": process.env.REACT_APP_SURVEY_NUMBER
-        }
-       ],
-       "placeholder": "Input Number"
      }
     ],
     // "title": "Survey",
