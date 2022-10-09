@@ -36,7 +36,7 @@ This application utilizes dotenv to host environment variables. Add a file named
 
 ## Deploying to Heroku
 
-To deploy to Heroku you will need to push the tetris-server/src subdirectory specifically. When ready to deploy, navigate to the root level of the project in the terminal and execute:
+To deploy to Heroku you will need to push the backend/src subdirectory specifically. When ready to deploy, navigate to the root level of the project in the terminal and execute:
 
 ```bash
 # create a new branch 'deploy' containing only the src subdirectory content
